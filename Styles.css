@@ -1,0 +1,121 @@
+body{
+   display: grid;
+   margin-left: 0;
+   margin-bottom: 0;
+   margin-right: 0;
+  
+}
+/* Style the links inside the navigation bar */
+  .top-nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 2rem;
+  }
+  
+  /* Change the color of links on hover */
+  .top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .top-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  /* For the navigations present on the right */
+  #nav{
+    float:right;
+  }
+
+  /* Food image on top */
+  #food{
+    height: 25rem;
+    width: 25rem;
+    padding: 4rem ;
+    transform: rotate(22deg);
+  }
+ /* top container */
+  .container1{
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin:1% 3% 0% 7%;
+  } 
+  h1{
+    font-size: 4rem;
+  }
+  /* Sign up button */
+  .btn{
+    height: 2rem;
+    width:17rem;
+    background-color: rgb(4, 54, 255);
+    border: 0cm;
+  }
+  a{
+    color: #F3FFFF;
+  }
+
+  .within-container1{
+    display: grid;
+    grid-template-rows: 3fr;
+  }
+/* container for service */
+ .container2{
+  display: grid;
+  grid-template-rows: 2fr;
+}
+.bg-colour{
+  background-color:#F3FFFF;
+  margin: 0%;
+}
+#service{
+  font-size: 3rem;
+  align-items: center;
+} 
+
+/* third container */
+.container3 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: auto;
+  box-sizing: border-box;
+  margin-left: 6rem;
+  margin-top: 4rem;
+  justify-content: center;
+    justify-items: center;
+}
+
+/* card images */
+.cardimg{
+  height: 10rem;
+  width: 10rem;
+}
+
+.details{
+  justify-content: center;
+}
+
+.container4{
+  display: grid;
+  grid-template-rows: auto;
+  justify-items: center;
+  margin-top: 3rem;
+}
+.container5{
+  background-color: #5C807B;
+  height: 15rem;
+  margin-top: 2rem;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+  column-gap: 3rem;
+  justify-content: center
+}
+
